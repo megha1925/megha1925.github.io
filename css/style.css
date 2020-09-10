@@ -93,7 +93,6 @@ b{
 .page-container{
     margin: 8% 10% ;
     margin-bottom: 120px;
-    background-color:green;
 }
 
 /* Portfolio page */
@@ -142,7 +141,6 @@ b{
 .form-container{
     width: 100%;
     height: 100%;
-    background-color: orange;
 }
 
 .form-control{
