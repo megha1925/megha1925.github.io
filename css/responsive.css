@@ -6,6 +6,10 @@
         
     }
 
+    .form-control{
+        width: 100%;
+    }
+
     nav{
         height: 50px;
     }
