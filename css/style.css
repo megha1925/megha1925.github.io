@@ -92,6 +92,7 @@ b{
 
 .page-container{
     margin: 8% 10% ;
+    margin-bottom: 120px;
 }
 
 /* Portfolio page */
@@ -138,7 +139,7 @@ b{
 }
 
 .form-container{
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
@@ -185,12 +186,13 @@ b{
 /*footer*/
 
 #footer{
-
+    position: fixed;
     text-align: center;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    height: 120px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    height: 100px;
     background-color:  #1d1d1d;
     color: #fff;
 }
@@ -198,6 +200,6 @@ b{
 .footer-txt{
     margin: auto;
     padding: 40px;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 4px;
 }
