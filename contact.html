@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website | CONTACTS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script src="https://kit.fontawesome.com/9aabafbe91.js" crossorigin="anonymous"></script>
+
+
+    <!--Normalize CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>  
+        <img id="logo" src="/img/logoipsum.jpeg" alt="logo" />
+            <div class="lol" id="burg">
+                <a href="/index.html">
+                    <b>HOME</b>
+                </a>
+        
+                <a href="/services.html">
+                    <b>SERVICES</b>
+                </a>
+        
+                <a href="/portfolio.html">
+                    <b>PORTFOLIO</b>
+                </a>
+        
+                <a class="active" href="/contact.html">
+                    <b>CONTACTS</b>
+                </a>
+        
+                <a href="/about.html">
+                    <b>ABOUT</b>
+                </a>
+            </div>
+        <a href="javascript:void(0);" class="ham" onclick="hamClick()">
+            <i class="fa fa-bars"></i>
+        </a>
+         
+    </nav>
+    
+    <!--PAGE NAME -->
+   <section class="okie">
+    <h1 id="page-title"> C O N T A C T </h1>
+   </section>
+
+   <!-- start of form -->
+   <div class="page-container">
+   <form>
+
+       <label><b>FULL NAME:</b></label>
+       <input type="text" class="form-control">
+       <br> 
+
+       <label><b>PHONE NUMBER:</b></label>
+       <input type="number" class="form-control">
+       <br>
+
+       <label><b>EMAIL ADDRESS:</b></label>
+       <input type="text" class="form-control">
+       <br>
+
+       <label><b>MESSAGE:</b></label>
+       <textarea rows="20" cols="100" class="form-control">
+       </textarea>
+       <br>
+
+       <button type="submit" class="btn btn-primary">Send </button>
+
+   </form> 
+</div>
+
+    <section id="footer">
+        <p class="footer-txt">
+            copyright &copy; 2020
+        </p>
+
+    </section >
+    <script src="/js/script.js"></script>
+    <script src="/js/mediaChange.js"></script>
+    
+</body>
+</html>
