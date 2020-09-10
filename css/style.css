@@ -138,47 +138,6 @@ b{
     color:#08fdd8;
 }
 
-.form-container{
-    width: 100%;
-    height: 100%;
-    background-color:orange;
-}
-
-.form-control{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    font-size: 12pt;
-    color: #181818;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #1d1d1d;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    border-radius: 1px;
-}
-
-.btn-primary{
-    color: #181818;
-    font-size: 11px;
-    letter-spacing: 2px;
-    font-family: "Open Sans",sans-serif;
-    text-align: center;
-    border: 1px solid #181818;
-    text-transform: uppercase;
-    background: 0 , 0 ;
-    padding: 8px 10px;
-    margin-right: 800px;
-    border-radius: 2.5px;
-
-}
-.btn-primary:hover{
-    background-color: #181818;
-    color: #696969;
-}
-
 .okie{
     margin-top: 80px;
     width: 100%;
@@ -206,10 +165,7 @@ b{
     letter-spacing: 4px;
 }
 
-
-
-
-
+/* form -css */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
