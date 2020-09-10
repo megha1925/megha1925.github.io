@@ -93,6 +93,7 @@ b{
 .page-container{
     margin: 8% 10% ;
     margin-bottom: 120px;
+    background-color:green;
 }
 
 /* Portfolio page */
@@ -139,8 +140,9 @@ b{
 }
 
 .form-container{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
 }
 
 .form-control{
@@ -185,8 +187,8 @@ b{
 
 /*footer*/
 
-#footer{
-    position: fixed;
+.footer{
+    position: relative;
     text-align: center;
     width: 100%;
     bottom: 0px;
@@ -196,6 +198,7 @@ b{
     background-color:  #1d1d1d;
     color: #fff;
 }
+
 
 .footer-txt{
     margin: auto;
